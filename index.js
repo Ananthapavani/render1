@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello Dinga! Your app is live 🎉");
+  res.send("Welcome to Devops.");
 });
 
 const PORT = process.env.PORT || 3000;
